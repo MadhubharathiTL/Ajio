@@ -1,0 +1,210 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    width: 100vw;
+}
+.banner
+{
+    width:99%;
+    overflow: hidden;
+}
+.sign-in
+{
+    margin-bottom: 10px;
+}
+.sign-in button
+{
+    margin-left: 5px;
+    font-size: 13px;
+    padding: 3px;
+}
+.sign-in a
+{
+    margin-left: 2px;
+    font-size: 13px;
+    font-family: monospace;
+}
+.dropdown:hover .dropdown-menu
+{
+    display: block;
+}
+.dd-1,.dd-2
+{
+    width:250px;
+    height: 150px;
+    text-wrap: wrap;
+    position:relative;
+    right:3%;
+    transform: translateX(-3%);
+    color: #222;padding: 10px;
+}
+.dd-1 button
+{
+    width:200px;
+    padding:5px 10px;
+    border:2px solid #866528;
+    color: #866528;border-radius: 0px;
+}
+.dd-1 li
+{
+    padding:15px;
+    font-size:13px;
+    text-wrap: wrap;
+}
+.dd-2 p
+{ 
+    font-size: 16px;
+    text-wrap: wrap;
+}
+
+/* Drop down */
+.sub-header
+{
+    height:100px;
+    width: 100%;
+    background-color: rgb(65,64,66);
+    margin-top: 5px;
+    text-align: center;
+    padding-bottom:10px;cursor: pointer;
+}
+.sub-header img
+{
+    margin-bottom: 10px;
+}
+.box
+{
+width:980px;
+height: 700px;
+position: relative;
+left:40%;
+transform: translateX(-40%);
+}
+.box1
+{
+width:980px;
+height: 700px;
+position: relative;
+left:45%;
+transform: translateX(-45%);
+}
+.box2
+{
+width:980px;
+height: 700px;
+position: relative;
+left:50%;
+transform: translateX(-50%);
+}
+.box3
+{
+width:980px;
+height: 700px;
+position: relative;
+left:55%;
+transform: translateX(-55%);
+}
+.one span
+{
+    font-size: 14px;
+}
+.span-tag
+{
+    background-color:#f8f8f8;
+    padding:8px;
+}
+.span-tag:hover,.box:hover .span-tag,.box1:hover .span-tag,.box2:hover .span-tag,.box3:hover .span-tag
+{
+    font-weight: bold;
+    background-color:#ccc;
+}
+.mega-menus ul
+{
+list-style-type: none;
+}
+.mega-menus .one a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+.mega-menus .one a:hover
+{
+    text-decoration: underline;
+}
+.dd
+{
+    text-decoration: none;
+    color: white;
+}
+.dd:hover
+{
+    font-weight: bold;
+}
+.dropdown:hover .dropdown-menu
+{
+    display:inline-block;
+}
+
+/* End of All drop downs */
+
+/* banners */
+.banner img:hover,.carousel-inner img:hover,.trend img:hover,.image-gallery img:hover,.newin img:hover,
+.editorpicks img:hover
+{
+    transform: scale(1.03);
+    transition:0.6s ease-in;
+    cursor: pointer;
+
+}
+.bag img:hover
+{
+    transform: scale(1.01);
+    transition:0.6s ease-in;
+    cursor: pointer;
+
+}
+.flex-carousel
+{
+    display:flex;
+    width: 100%;overflow: hidden;
+    flex-wrap: wrap;
+}
+.flex-carousel img
+{
+    width:448px;
+    flex-basis: 25%;
+}
+.footer-part
+{
+    background-color: #2c4152;
+    color: #ccc;
+    text-transform: capitalize;
+}
+.a-tag
+{
+    text-decoration: none;
+    color:#ccc
+}
+.a-tag:hover
+{
+    text-decoration: underline;
+    opacity: 0.75;
+}
+.up-arrow
+{
+    border-radius:50%;width:50px;height: 50px;
+    background-color:white;
+    padding:0px 2px;
+    position:fixed;
+    left:95%;bottom:2%;
+}
+.input-group input::placeholder
+{
+    text-align: center;
+}
+
